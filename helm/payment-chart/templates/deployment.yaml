@@ -18,7 +18,6 @@ spec:
     spec:
       serviceAccountName: payment-service-sa
 
-    spec:
       containers:
 
       - name: payment-service
