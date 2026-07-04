@@ -1,0 +1,13 @@
+replicaCount: 2
+
+image:
+  repository: 810648236794.dkr.ecr.us-east-1.amazonaws.com/payment-service
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8081
+
+ingress:
+  enabled: false
